@@ -1,0 +1,27 @@
+.Button {
+  width: auto;
+  height: auto;
+  padding: 10px;
+  font-size: 2rem;
+  margin: 10px;
+  text-transform: capitalize;
+  border-radius: 10px;
+}
+
+@keyframes scale-up {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes scale-down {
+  0% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
